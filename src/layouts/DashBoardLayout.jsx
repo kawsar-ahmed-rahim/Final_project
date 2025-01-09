@@ -15,7 +15,7 @@ const DashBoardLayout = () => {
     }
     return (
     <div>
-        <NavBar  navOpenHandler={handleNavOpen}/>
+        <NavBar navOpenHandler={handleNavOpen}/>
         <div id="sideNavRef" className={isNavOpen ? "side-nav-open" : "side-nav-close"}>
             <SideBar/>
         </div>
